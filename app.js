@@ -53,7 +53,7 @@ function App() {
                     </div>
 
                     <div className="highlight-box">
-                        <h3>Making Dreams Come True</h3>
+                        <h3>Enable Education</h3>
                         <p>If we manage to secure enough funds, then we can also send the daughter to a proper school — I have been told she would like to be a nurse in the future.</p>
                     </div>
 
@@ -136,9 +136,9 @@ function App() {
                 </section>
             </main>
 
-            <footer className="footer">
+            {/* <footer className="footer">
                 <p>&copy; 2024 Hmong Family Fundraiser. All donations go directly to materials and resources for the family.</p>
-            </footer>
+            </footer> */}
         </div>
     );
 }
