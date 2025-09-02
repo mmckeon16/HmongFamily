@@ -20,13 +20,16 @@ function App() {
     return (
         <div className="container">
             <header className="header">
+                <div className="campaign-tag">
+                    <i className="fas fa-heart"></i>
+                    <span>Humanitarian Campaign</span>
+                </div>
                 <h1>Helping Hmong Family in Northern Thai Village</h1>
                 <p>Every contribution brings us closer to rebuilding their home and securing a better future.</p>
             </header>
 
             <main className="main-content">
 
-                {/* New Video Section */}
                 <section className="video-section">
                     <h2 className="section-title">See Their Story</h2>
                     <div className="video-container">
@@ -84,8 +87,8 @@ function App() {
 
                 <section className="donation-section">
                     <h3>How You Can Help</h3>
-                    {/* <p>Choose an amount that works for you, or contact us for custom donation options</p> */}
-{/*                     
+                    {/* <p>Choose an amount that works for you, or contact us for custom donation options</p>
+                    
                     <div className="donation-options">
                         <div className="donation-option" onClick={() => handleDonationClick(25)}>
                             <div className="donation-amount">$25</div>
@@ -107,8 +110,8 @@ function App() {
                             <div className="donation-amount">$500</div>
                             <div className="donation-description">School tuition fund</div>
                         </div>
-                    </div> */}
-                    
+                    </div>
+                     */}
                     <p>All donations are used directly for materials and resources</p>
                 </section>
 
@@ -121,14 +124,14 @@ function App() {
                             <i className="fas fa-envelope"></i>
                             <span>Email us for donation information</span>
                         </div>
-                        <div className="contact-item">
+                        {/* <div className="contact-item">
                             <i className="fas fa-phone"></i>
                             <span>Contact for phone details</span>
-                        </div>
-                        <div className="contact-item">
+                        </div> */}
+                        {/* <div className="contact-item">
                             <i className="fas fa-map-marker-alt"></i>
                             <span>Northern Thai Village Project</span>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </main>
