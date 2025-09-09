@@ -113,6 +113,11 @@ function App() {
                     </div>
                      */}
                     <p>All donations are used directly for materials and resources</p>
+                    <div className="qrCodeContainer">
+                        <img src="qr-code.jpg" alt="donate here"/>
+                        <p>Scan to donate</p>
+                    </div>
+                    {/* <p>Or click here to donate <a href="https://www.paypal.com/paypalme/msuffici">https://www.paypal.com/paypalme/msuffici</a></p> */}
                 </section>
 
                 <section className="contact-info">
