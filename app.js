@@ -1,7 +1,7 @@
 const { useState, useEffect } = React;
 
 function App() {
-    const [currentDonation, setCurrentDonation] = useState(202);
+    const [currentDonation, setCurrentDonation] = useState(585);
     const [goalAmount] = useState(3500);
     const [progressPercentage, setProgressPercentage] = useState(0);
 
